@@ -1,5 +1,5 @@
 # 150Exercises
-[Back](https://github.corp.globant.com/laura-velez/150Exercises)
+[Back](https://github.com/apitoriadev/150Exercises)
 
 1. Write a program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum. Go to the editor
 
@@ -301,4 +301,4 @@
 
 150. Write a program to create a new list from a given list of integers removing those values end with 7. Go to the editor
 
-[Back](https://github.corp.globant.com/laura-velez/150Exercises)
+[Back](https://github.com/apitoriadev/150Exercises)
