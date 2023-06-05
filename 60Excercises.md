@@ -1,5 +1,5 @@
 # 60Exercises
-[Back](https://github.com/apitoriadev/blob/main/150Exercises)
+[Back](https://github.com/apitoriadev/150Exercises)
 
 1. Write a program to print Hello and your name in a separate line.
 2. Write a program to print the sum of two numbers.
@@ -64,4 +64,4 @@
 61. Write a program to sort the integers in ascending order without moving the number -5.
 62. Write a program to reverse the strings contained in each pair of matching parentheses in a given string and also remove the parentheses within the given string. 
 
-[Back](https://github.com/apitoriadev/blob/main/150Exercises)
+[Back](https://github.com/apitoriadev/150Exercises)
