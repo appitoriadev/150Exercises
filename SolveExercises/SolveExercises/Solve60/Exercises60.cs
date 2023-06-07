@@ -10,15 +10,20 @@ namespace SolveExercises.Solve60
     {
         public Exercises60() { }
 
-        public void HelloName(string _name)
+        public void HelloName1(string _name)
         {
             Console.WriteLine("Hello " + _name + "!!");
         }
 
-        public void SumNumbers(double a, double b)
+        public void SumNumbers2(double a, double b)
         {
             var sum = a + b;
             Console.WriteLine($"The sum of {a} + {b} is: " + Convert.ToString(sum) + ".");
+        }
+
+        public void DivideTwoNumbers3(double a, double b)
+        {
+
         }
     }
 }

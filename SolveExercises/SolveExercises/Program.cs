@@ -3,6 +3,6 @@ using SolveExercises.Solve60;
 var sixty = new Exercises60();
 Console.WriteLine("Init");
 
-sixty.SumNumbers(5, 62);
+sixty.SumNumbers2(5, 62);
 
 Console.ReadKey();
