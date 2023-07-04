@@ -59,11 +59,55 @@ namespace SolveExercises.Solve60
 
         public void SwapNumbers5(int a, int b)
         {
+            Console.WriteLine($"The numbers are: a = {a} and b = {b}.");
+
             int temp = a;
             a = b;
             b = temp;
 
             Console.WriteLine($"The numbers were swaped: a = {a} and b = {b}.");
+        }
+
+        public void PrintMultiplicationThreeNumbers6(int a, int b, int c)
+        {
+            Console.WriteLine($"The result for {a} times {b} times {c} is: {a * b * c}.");
+        }
+
+        public void PrintResultAll7(double a, double b)
+        {
+            string text = string.Empty;
+            text = $"The sum of {a} + {b} is: {a + b}.\r\nSubstracting {a} - {b} is: {a - b}.\r\nThe result for {a} times {b} is: {a * b}.";
+            Console.WriteLine(text);
+            DivideTwoNumbers3(a, b);
+        }
+
+        public void MultiplicationTable8(int number)
+        {
+            Console.WriteLine($"Multiplication table for {number}.");
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{number} * {i} = {number * i}.");
+            }
+        }
+
+        public void AverageFourNumbers9(double[] numbers)
+        {
+            double avg;
+            double sum = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sum += numbers[i];
+            }
+            avg = sum / numbers.Length;
+
+            Console.WriteLine($"The average of the numbers is: {avg}.");
+        }
+
+        public void OperantionsXYZ10(int x, int y, int z)
+        {
+            var first = (x + y) * z;
+            var second = (x * y) + (y * z);
+            Console.WriteLine($"The output of ({x} + {y}) * {z} is: {first} and {x} * {y} + {y} * {z} is: {second}.");
         }
     }
 }
